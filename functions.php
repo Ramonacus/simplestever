@@ -9,7 +9,7 @@ if ( !function_exists( 'simplestever_setup' ) ) {
 add_action( 'after_setup_theme', 'simplestever_setup' );
 
 
-if ( !function_exists('simplestever_scripts') ) {
+if ( !function_exists( 'simplestever_scripts' ) ) {
 	function simplestever_scripts() {
 		wp_enqueue_style( 'simplestever-style', get_stylesheet_uri() );
 	}
